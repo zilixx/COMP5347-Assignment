@@ -1,0 +1,103 @@
+﻿/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 75%;
+}
+
+div#searchBox, div#listBox {
+   margin: 0.25em auto;
+   background-color: #EBF4FB;
+   padding: 1em;
+   border: 1pt solid #95BEF0;
+   width: 80%;
+}
+div#searchBox { margin-top: 1em; }
+div#listBox { 
+   margin-top: 1em; 
+   background-color: #FAFCFF;
+   }
+
+#searchBox img {
+   max-width: 2em;
+   max-height: 1.75em;
+   vertical-align: middle;
+}
+
+#cart {
+   float: right;
+}
+
+table {
+   border: collapse; 
+   border-spacing: 0;
+   max-width: 100%;
+}
+
+table tbody td{
+   border-top: 1px solid #95BEF0;   
+   line-height: 1.5em;
+   vertical-align: middle;
+   padding: 0.5em;
+}
+
+table thead th {
+   text-align: left;
+   padding: 0.25em 0.5em; 
+}
+
+table td img {
+   max-width: 50x;
+   max-height: 70px;
+}
+
+table thead {
+   background-color: #EBF4FB ;
+}
+
+table tbody td:first-child  {
+   text-align: center;
+   padding: 0.5em 0em;   
+}
+
+caption {
+   background-color: #95BEF0;
+   padding: 0.5em 0.5em; 
+   font-weight: bold;
+   font-size: 1.2em;
+   height: 1.5em;
+}
+
+.highlight-color {
+   color: red;
+}
+
+/* dark mode style */
+.dark-mode-body {
+   background: rgb(30, 30, 30);
+   color: rgb(156, 220, 254);
+}
+
+.dark-mode-body #searchBox {
+   background-color: rgb(69, 77, 85);
+}
+
+.dark-mode-body #listBox {
+   background-color: rgb(37, 37, 38);
+}
+
+.dark-mode-body table thead {
+   background-color: rgb(51, 53, 54);
+   color: rgb(206, 178, 120);
+}
+
+.dark-mode-body caption {
+   background-color: slategrey;
+}
+
+.dark-mode-body .highlight-color {
+   color: rgb(197, 134, 192);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+   <meta charset="utf-8">
+   <title>COMP5347 Assignment One</title>
+   <link rel="stylesheet" href="index.css" />
+   <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+   <form method="get" action="">
+      <div id="searchBox">
+         <input type="text" id="keyword" value="">
+         <input type="button" id="search" value="search">
+
+         <select name="" id="category">
+            <option value="0" selected>Category</option>
+            <option value="1">Art</option>
+            <option value="2">Science History</option>
+            <option value="3">Health</option>
+            <option value="4">Science Fiction</option>
+            <option value="5">Programming</option>
+         </select>
+         <input type="button" id="filterBook" value="filter">
+
+         <label for="retheme">
+            <input type="checkbox" id="retheme" name="retheme" value="dark mode" />Dark Mode</label>
+
+         <div id="cart">
+            <input type="button" value="Add to cart" id="add">
+            <input type="reset" value="Reset the cart" id="reset">
+            <img src="images/shopping_cart.png" alt="shopping_cart" title="shopping_cart">
+         </div>
+
+      </div>
+      <div id="listBox">
+         <table id="table">
+            <caption></caption>
+            <thead>
+               <th></th>
+               <th></th>
+               <th>Title</th>
+               <th>Authors</th>
+               <th>Year</th>
+               <th>Price</th>
+               <th>Publisher</th>
+               <th>Category</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+         </table>
+      </div>
+   </form>
+   <script>
+   </script>
+</body>
+
+</html>
