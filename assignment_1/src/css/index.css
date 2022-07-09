@@ -31,6 +31,14 @@ div#listBox {
    float: right;
 }
 
+span.items::before {
+   content: "(";
+}
+
+span.items::after {
+   content: ")";
+}
+
 table {
    border: collapse; 
    border-spacing: 0;
